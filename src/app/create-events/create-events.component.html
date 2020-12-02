@@ -1,0 +1,9 @@
+<mat-toolbar>
+    <span>Events</span>
+</mat-toolbar>
+<mat-card>
+    <mat-form-field colo>
+        <input type="text" matInput placeholder="Event" [(ngModel)]="event">
+    </mat-form-field>
+    <button mat-raised-button color="accent" (click)="onSubmit()">Add Event</button>
+</mat-card>
