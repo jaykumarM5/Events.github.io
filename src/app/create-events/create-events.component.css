@@ -1,10 +1,16 @@
+mat-toolbar {
+  background-color: orangered;
+}
+
 mat-card {
   width: 50%;
   margin: 1rem auto;
+  background-color: orange;
 }
 
 mat-form-field,
 button {
+  text-align: center;
   display: block;
   width: 80%;
   margin: auto;
@@ -17,4 +23,5 @@ textarea {
 button {
   width: auto;
   margin-left: 10%;
+  color: red;
 }

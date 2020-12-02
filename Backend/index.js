@@ -8,7 +8,7 @@ const eventRoute = require("./routes/event.routes");
 
 mongoose
   .connect(
-    "mongodb+srv://jaykumar:0LbRXr944bfbNBpW@sl1.nxiyc.mongodb.net/tododb?retryWrites=true&w=majority",
+    "mongodb+srv://jaykumar:RXr94fbNBpW@sl1.nxiyc.mongodb.net/tododb?retryWrites=true&w=majority",
     { useNewUrlParser: true, useUnifiedTopology: true }
   )
   .then(() => console.log("Connected to database successfully"))
